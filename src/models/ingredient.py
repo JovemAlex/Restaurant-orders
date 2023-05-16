@@ -61,3 +61,15 @@ class Ingredient:
 
     def __repr__(self) -> str:
         return f"Ingredient('{self.name}')"
+
+
+# instance = Ingredient("farinha")
+
+# teste = instance.restrictions
+# print(teste)
+
+# hash = instance.__hash__()
+# print(hash)
+
+# repr = instance.__repr__()
+# print(repr)
