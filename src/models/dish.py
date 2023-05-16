@@ -39,16 +39,3 @@ class Dish:
 
     def get_ingredients(self):
         return set(self.recipe.keys())
-
-
-instance = Dish("Alexoa", 55.49)
-
-teste = instance.add_ingredient_dependency('farinha', 1)
-
-# restriction = instance.get_restrictions()
-ingredients = instance.get_ingredients()
-
-# print(instance.recipe)
-
-# print(restriction)
-print(ingredients)
