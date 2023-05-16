@@ -46,6 +46,3 @@ class MenuBuilder:
                 menu.append(prato)
 
         return pd.DataFrame(menu)
-
-
-# instance = MenuBuilder(DATA_PATH, INVENTORY_PATH)
